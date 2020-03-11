@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,initial-scale=1.0,width=device-width" />
+    <meta name="format-detection" content="telephone=no,email=no,date=no,address=no">
+    <title>Hello APP</title>
+    <link rel="stylesheet" type="text/css" href="./css/api.css" />
+    <style type="text/css">
+        *{
+          padding:0;
+          margin: 0;
+          background-color: #51a387;
+        }
+        li{
+          list-style: none;
+        }
+        a{
+          text-decoration: none;
+        }
+        .wrap {
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-flex-flow: column;
+        }
+        header {
+            margin-top:25px;
+            height: 50px;
+            width: 100%;
+            text-align: center;
+            background-color: #61b099;
+            color: #fff;
+            line-height: 50px;
+            font-size: 18px;
+        }
+        .left{
+          height: 22px;
+          width: 22px;
+          margin-left: 15px;
+          margin-right: -15px;
+          float: left;
+          margin-top: 15px;
+          background-color:  #61b099;
+        }
+        .flex{
+            -webkit-box-flex: 1;
+            -webkit-flex: 1;
+            background-color: #51a387;
+        }
+        li{
+          height: 50px;
+          line-height: 50px;
+          border-bottom: 1px solid #fff;
+        }
+        li a{
+          color: #fff;
+          font-size: 16px;
+        }
+        .bq{
+          height: 22px;
+          width: 22px;
+          padding-right: 10px;
+          vertical-align: middle;
+          padding-left: 20px;
+        }
+        .right{
+          height: 22px;
+          width: 22px;
+          float: right;
+          margin-top: 15px;
+          margin-right: 15px;
+          vertical-align: middle;
+        }
+        .tj{
+          padding-left: 52px;
+        }
+    </style>
+</head>
+<body class="wrap">
+    <header><img src="../image/left.png" class="left">类别管理</header>
+    <section class="flex">
+
+      <div class="flex-1">
+        <ul>
+          <li><a href="#"><img src="../image/dh.png" class="bq">学习</a><img src="../image/-.png" class="right"></li>
+          <li><a href="#"><img src="../image/dh.png" class="bq">运动</a><img src="../image/-.png" class="right"></li>
+          <li><a href="#"><img src="../image/dh.png" class="bq">娱乐</a><img src="../image/-.png" class="right"></li>
+          <li><a href="#"><img src="../image/dh.png" class="bq">休息</a><img src="../image/-.png" class="right"></li>
+          <li class="tj"><a href="#">添加</a><img src="../image/+.png" class="right"></li>
+        </ul>
+      </div>
+    </section>
+</body>
+</html>

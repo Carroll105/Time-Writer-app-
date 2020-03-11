@@ -1,0 +1,130 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+    <meta name="format-detection" content="telephone=no,email=no,date=no,address=no">
+    <title>Hello APP</title>
+    <link rel="stylesheet" type="text/css" href="../css/aui.css" />
+	<style>
+        #head{
+          background: #61B099;
+        }
+        .bac{
+          height: 550px;
+          background: #51A387;
+          position: relative;
+          z-index:0;
+        }
+        .but1{
+          display:inline-block;
+          width: 110px;
+          height: 35px;
+          background: #65CCA9;
+          color:white;
+          border-radius:10px;
+          text-align: center;
+          line-height: 35px;
+          position:absolute;
+
+        }
+        .b1{
+        left:14px;
+        top:50px;
+
+        }
+        .b2{
+        left:134px;
+        top:50px;
+        }
+        .b3{
+        left:254px;
+        top:50px;
+        background:#356C5A;
+        }
+
+        .im1{
+          width:40px;
+          position:absolute;
+          left:168px;
+          top:100px;
+          z-index:2;
+        }
+        .add1{
+          background: #7EE21E;
+          border-radius: 50%;
+          width:40px;
+          height:40px ;
+          position: absolute;
+          z-index:1;
+          top:100px;
+          left:168px;
+        }
+        .word{
+            position: absolute;
+            top:165px;
+            left:100px;
+            font-size:20px;
+            color:white;
+        }
+        .circle1{
+          background: #C4C56F;
+          position: absolute;
+          border-radius: 50%;
+          top:200px;
+          left:104px;
+          width: 170px;
+          height: 170px;
+        }
+        .circle2{
+          background: #E4E4A3;
+          position: absolute;
+          border-radius: 50%;
+          top:210px;
+          left:114px;
+          width: 150px;
+          height: 150px;
+        }
+        .im2{
+          width:100px;
+          position:absolute;
+          z-index:2;
+          left:140px;
+          top:230px;
+          z-index:2;
+        }
+        .time{
+          font-size: 70px;
+          color: white;
+          position: absolute;
+          left:104px;
+          top:380px;
+        }
+	</style>
+</head>
+<body>
+  <header id="head" class="aui-bar aui-bar-nav">Time</header>
+  <div class="bac">
+        <a href="" class="but1 b1">学习ing</a>
+        <a href="" class="but1 b2">娱乐</a>
+        <a href="" class="but1 b3">休息ing</a>
+
+
+       <div class="add1">
+       </div>
+        <img src="../image/add.png"class="im1"  alt="add" />
+
+        <p class="word">好好休息，精力充沛！</p>
+
+        <div class="circle1"></div>
+        <div class="circle2"></div>
+        <img src="../image/relax.png"class="im2"  alt="rest" />
+
+          <p class="time">20:00</p>
+  </div>
+
+
+</body>
+<script type="text/javascript" src="../script/api.js"></script>
+
+</html>

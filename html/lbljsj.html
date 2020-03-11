@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,initial-scale=1.0,width=device-width" />
+    <meta name="format-detection" content="telephone=no,email=no,date=no,address=no">
+    <title>Hello APP</title>
+    <link rel="stylesheet" type="text/css" href="./css/api.css" />
+    <style type="text/css">
+        *{
+          padding:0;
+          margin: 0;
+          background-color: #51a387;
+        }
+        li{
+          list-style: none;
+        }
+        a{
+          text-decoration: none;
+        }
+        .wrap {
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-flex-flow: column;
+        }
+        header {
+            margin-top:25px;
+            height: 50px;
+            width: 100%;
+            text-align: center;
+            background-color: #61b099;
+            color: #fff;
+            line-height: 50px;
+            font-size: 18px;
+        }
+        .left{
+          height: 22px;
+          width: 22px;
+          margin-left: 15px;
+          margin-right: -15px;
+          float: left;
+          margin-top: 15px;
+          background-color:  #61b099;
+        }
+        .flex{
+            -webkit-box-flex: 1;
+            -webkit-flex: 1;
+            background-color: #51a387;
+        }
+        li{
+          height: 50px;
+          line-height: 50px;
+          border-bottom: 1px solid #fff;
+        }
+        li a{
+          color: #fff;
+          font-size: 16px;
+          padding-left: 25px;
+        }
+        .right{
+          float: right;
+          color: #fff;
+          margin-right: 20px;
+          vertical-align: middle;
+        }
+    </style>
+</head>
+<body class="wrap">
+    <header><img src="../image/left.png" class="left">类别累计时间</header>
+    <section class="flex">
+
+      <div class="flex-1">
+        <ul>
+          <li><a href="#">学习</a><p class="right">8h56m</p></li>
+          <li><a href="#">运动</a><p class="right">4h33m</p></li>
+          <li><a href="#">娱乐</a><p class="right">4h20m</p></li>
+          <li><a href="#">休息</a><p class="right">20h10m</p></li>
+        </ul>
+      </div>
+    </section>
+</body>
+</html>
